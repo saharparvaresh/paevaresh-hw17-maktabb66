@@ -26,16 +26,7 @@ function App() {
   }
 
   return (
-    // <Todo/>
-    // <Form />
-    // <HOC names="moa" age="20" />
-    // <QOne />
-    // <OtherHook />
-    // <Calculator />
-    // <>
-    //   <SongList />
-    //   <SongDetail />
-    // </>
+    
     <div style={{ display: "flex", justifyContent: "space-evenly" }}>
       <AllItems changeCheck={changeCheck} />
       <selectedList.Provider value={selectList}>
